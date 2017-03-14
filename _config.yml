@@ -1,0 +1,23 @@
+# Site
+title: Ludicidade
+subtitle: Vamos construir a cidade que queremos ver
+
+# URL
+url: http://www.ludicidade.site
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4448
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
